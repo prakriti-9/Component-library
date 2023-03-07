@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Montserrat:ital,wght@0,100;0,300;1,200&display=swap');
+
+body{
+    font-family: 'Comic Neue', cursive;
+    margin: 0px;
+}
+
+hr{
+    margin: 2rem 0rem;
+}
+
+:root{
+    --primary-color:#1e293b;
+    --second-color: #0e7490;
+    --tertiary-color: #f472b6;
+}
+
+h1, h2, h3{
+    margin-left: 2.5rem;
+}
+
+.intro{
+    padding-left: 3rem;
+}
+
+/* typography */
+.para{
+    margin-left: 2.5rem
+}
+/* containers */
+.container-intro{
+    padding-left: 3rem;
+}
+.container{
+    margin: 1rem;
+} 
+
+.container-centre{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+/* Button */
+.link{
+    padding-left: 3rem;
+    text-decoration: none;
+    color: var(--tertiary-color);
+}   
+.link--primary{
+    background-color: var(--primary-color);
+    padding: 0.35rem;
+    border-radius: 0.40rem;
+}
+
+.link--secondary{
+    padding: 0.35rem;
+}
+
+
+/* List */
+.non-bullet{
+    list-style: none;
+}
+.inline{
+    display: inline; 
+    padding: 0rem 2rem;
+}
+
+/* Navigation Bar */
+.nav-pills{
+    text-align: right;
+    font-size: larger;
+}
+.navigation-heading{
+    font-weight: bolder;
+    font-size: x-large;
+    margin-left: 3rem;
+    margin-top: 2rem;
+ }
+.navigation{
+    background-color: var(--primary-color);
+    padding: 0.5rem;
+    color: var(--tertiary-color);
+}
+.link-active{
+    font-weight: bolder;
+}
+
+/* Header */
+.hero{
+    padding: 3rem;
+}
+.hero-image{
+    max-width: 30rem;
+    display: block;
+    margin: auto;
+}
+.hero-caption{
+    text-align: center;
+    font-size:x-large;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+.hero-caption .hero-caption-inner{
+    color:var(--second-color);
+}
+
+/* section */
+.section-grey{
+    background-color: var(--primary-color);
+    color: var(--tertiary-color);
+}
+.section{
+    padding: 1rem;
+}
+/* FOOTER */
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem;
+    color: var(--tertiary-color);
+    text-align: center;
+}
+.footer-heading{
+    padding-left: 3rem;
+    font-size: large;
+}
+.footer .link{
+    font-weight: bold;
+}
+
